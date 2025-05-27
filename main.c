@@ -2,15 +2,10 @@
 #include "gelas.c"
 
 int main() {
-    Gelas a, b;
+    Gelas a = {10, 5};
+    Gelas b = {7, 3};  
     int volume;
     int pilihan;
-
-    printf("Masukkan kapasitas dan isi awal gelas A (format: kapasitas isi): ");
-    scanf("%d %d", &a.kapasitas, &a.isi);
-
-    printf("Masukkan kapasitas dan isi awal gelas B (format: kapasitas isi): ");
-    scanf("%d %d", &b.kapasitas, &b.isi);
 
     do {
         printf("\n=== Menu Aksi ===\n");
